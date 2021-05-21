@@ -1,6 +1,6 @@
-(ns robocode-clojure.core-test
+(ns clobot.DemoRobot-test
   (:require [clojure.test :refer :all]
-            [robocode-clojure.core :refer :all]))
+            [clobot.DemoRobot :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

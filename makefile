@@ -5,7 +5,7 @@ setup:
 	lein deps
 	@# Create a new run script that puts Clojure on Robocode's Classpath
 	@cp resources/cl-robocode.sh ~/robocode
-	@CLOJURE_JAR="$$(realpath ~)/.m2/repository/org/clojure/clojure/1.10.3/clojure-1.10.3.jar";\
+	@CLOJURE_JAR=~/.m2/repository/org/clojure/clojure/1.10.3/clojure-1.10.3.jar;\
 	sed -i '' 's#CLOJURE_JAR_PATH#'"$$CLOJURE_JAR"'#' ~/robocode/cl-robocode.sh
 	@echo "Setup Complete."
 

@@ -5,8 +5,12 @@ A Clojure project to build [Robocode](https://robocode.sourceforge.io/) robots.
 ## Prerequisites
 
 You must have a working installation of Clojure, Leiningen, and Robocode for
-this project to properly work. Setup steps for these can be found at their
-respective sites:
+this project to properly work. If you are using macOS, the wiki provides
+[step-by-step
+instructions](https://github.com/JuntosFinanzas/robocode-clojure/wiki#installing-prerequisites-on-macos)
+for installing these prerequisites. If you are using another platform,
+installation instructions for each prerequisite can be found at its respective
+site:
 
 * [Getting Started with Clojure](https://clojure.org/guides/getting_started)
 * [Install Leiningen](https://leiningen.org/#install)
